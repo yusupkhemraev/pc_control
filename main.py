@@ -37,7 +37,7 @@ from telebot import apihelper
 
 
 
-token = '5215308494:AAFsBqKsBQMrwP7szRb1Q4Lj9njuO-4vgm0'
+token = TOKEN
 
 bot = telebot.TeleBot(token)
 
