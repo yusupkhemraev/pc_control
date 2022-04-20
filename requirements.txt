@@ -1,7 +1,0 @@
-os
-telebot
-psutil
-requests
-subprocess
-pyautogui
-screen_brightness_control
