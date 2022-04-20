@@ -94,12 +94,12 @@ def close_command(message):
 @bot.message_handler(regexp='Перезагрузка')
 def reboot_command(message):
     print('[log] reboot')
-    # subprocess.call('shutdown /r /t 0')
+    subprocess.call('shutdown /r /t 0')
 
 @bot.message_handler(regexp='Завершить работу')
 def shutdown_command(message):
     print('[log] shutdown')
-    # subprocess.call('shutdown /l')
+    subprocess.call('shutdown /l')
 
 @bot.message_handler(regexp='🔉')
 def volumedown_command(message):
@@ -182,7 +182,7 @@ def screenshot_command(message):
 @bot.message_handler(regexp='Сон')
 def sleep_command(message):
     print('[log] sleep')
-    # subprocess.call('shutdown /h')
+    subprocess.call('shutdown /h')
 
 @bot.message_handler(regexp='❌')
 def exit_command(message):
